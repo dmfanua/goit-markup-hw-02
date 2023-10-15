@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto", "Raylway", "Verdana", sans-serif;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.name-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.profession-title {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
