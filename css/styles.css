@@ -31,7 +31,7 @@ body {
 }
 
 .nav-list {
-    color: #2e2f42;
+    color: #2E2F42;
     font-weight: 500;
 }
 
@@ -109,7 +109,7 @@ button:focus {
     text-transform: capitalize;
 }
 
-.our-team-cards {
+.our-team-list {
     background-color: #FFFFFF;
 }
 
