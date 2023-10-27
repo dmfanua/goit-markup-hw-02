@@ -61,12 +61,13 @@ body {
     color: #404BBF;
 }
 
-h1 {
+.main-slogan-title {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: bold;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .main-slogan {
@@ -78,6 +79,7 @@ h1 {
     letter-spacing: 0.04em;
     text-align: left;
     color: #FFFFFF;
+    line-height: 1.5;
 }
 
 button {
@@ -93,12 +95,22 @@ button:focus {
     background-color: #404BBF;
 }
 
-h2 {
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: bold;
-    line-height: 1.2;
+    ;line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.our-team-cards {
+    background-color: #FFFFFF;
 }
 
 .title {
@@ -106,6 +118,7 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .footer-slogan {
