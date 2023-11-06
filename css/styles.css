@@ -30,40 +30,40 @@ body {
     text-align: left;
 }
 
-.nav-link {
+.nav a {
     color: #2E2F42;
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
 }
 
-.nav-link:hover {
+.nav a:hover {
     color: #404BBF;
 }
 
-.nav-link:focus {
+.nav a:focus {
     color: #404BBF;
 }
 
-.nav-link:active {
+.nav a:active {
     text-decoration: underline;
 }
 
-.link {
+.tel a {
     font-style: normal;
     text-decoration: none;
     color: #434455;
 }
 
-.link:hover {
+.tel a:hover {
     color: #404BBF;
 }
 
-.link:focus {
+.tel a:focus {
     color: #404BBF;
 }
 
-.link:active {
+.tel a:active {
     text-decoration: underline;
 }
 
