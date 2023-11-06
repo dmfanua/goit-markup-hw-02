@@ -8,6 +8,41 @@ body {
     letter-spacing: 0.02em;
 }
 
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+li {
+    background-color: #FFFFFF;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     color:#4D5AE5;
@@ -37,55 +72,22 @@ body {
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: #404BBF;
-}
-
-.nav a:focus {
-    color: #404BBF;
-}
-
-.nav a:active {
-    text-decoration: underline;
-}
-
 .tel a {
+    color: #434455;
     font-style: normal;
     text-decoration: none;
-    color: #434455;
 }
 
-.tel a:hover {
+.link:hover, .link:focus {
     color: #404BBF;
 }
 
-.tel a:focus {
-    color: #404BBF;
-}
-
-.tel a:active {
+.nav .link:active {
     text-decoration: underline;
-}
-
-.contacts {
-    font-style: normal;
-}
-
-.contacts:hover {
-    color: #404BBF;
-}
-
-.main-slogan-title {
-    color: #FFFFFF;
-    font-size: 56px;
-    font-weight: bold;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
 }
 
 .main-slogan {
-    background-color: #2E2F42;
+    background: #2E2F42;
 }
 
 .button-text {
@@ -101,38 +103,12 @@ button {
     background: #4D5AE5;
 }
 
-button:hover {
+button:hover, button:focus {
     background: #404BBF;
 }
 
-button:focus {
-    background-color: #404BBF;
-}
-
-.our-team {
-    background-color: #F4F4FD;
-}
-
-.our-team-title {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: bold;
-    ;line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-.our-team-card {
-    background-color: #FFFFFF;
-}
-
-.title {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.section {
+    background: #f4f4fd;
 }
 
 .footer-slogan {
@@ -145,12 +121,4 @@ background-color:#2E2F42;
 
 .logo-footer {
     color: #F4F4FD;
-}
-
-.description {
-    font-size: 16px;
-}
-
-ul {
-    list-style: none;
 }
